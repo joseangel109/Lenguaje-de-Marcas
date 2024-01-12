@@ -1,0 +1,11 @@
+<persona>
+	<nombre>María</nombre>
+	<apellido>Pérez</apellido> mi nombre es <pila> pedro </pila>
+</persona>
+	María Pérez
+	<cargo>Directora</cargo>
+	&gt; >
+	&lt; <
+	$quot; "
+	$apos; '
+	$amp; &
