@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Clase>
+    <Profesor>
+        <Nombre>Marcelo</Nombre>
+        <Apellido>Ruiz</Apellido>
+    </Profesor>
+    <Alumnos>
+        <Alumno>
+            <Nombre>Filomeno</Nombre>
+            <Apellido>García</Apellido>
+        </Alumno>
+        <Alumno>
+            <Nombre>Federico</Nombre>
+            <Apellido>Pina</Apellido>
+        </Alumno>
+        <Alumno>
+            <Nombre>Manuel</Nombre>
+            <Apellido>Sáez</Apellido>
+        </Alumno>
+    </Alumnos>
+</Clase>
