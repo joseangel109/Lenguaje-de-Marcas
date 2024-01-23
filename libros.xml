@@ -1,0 +1,5 @@
+<lista>
+    <libro titulo= "La biblia" publicacion="900 A.C" autor="Tu papi"/>
+    <libro titulo="El Quijote" publicacion="1605" autor="Miguel de Cervantes" />
+    <libro titulo="Lazarillo de Tormes" publicacion="1554" autor="Juan Ortega"/>
+</lista>
