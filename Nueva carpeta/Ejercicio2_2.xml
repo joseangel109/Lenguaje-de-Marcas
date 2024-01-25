@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<juegos>
+  <juego>
+    <titulo>Catan</titulo>
+    <autores>Klaus Teuber</autores>
+    <num_jugadores>2-4</num_jugadores>
+    <duracion>75 minutos</duracion>
+    <tematica>comercio</tematica>
+    <objetivo>colonizar la isla</objetivo>
+    <precio>38,50 €</precio>
+    <mas_info>https://www.youtube.com/watch?v=Lh5LcChAzTg&feature=youtu.be&ab_channel=Zacatrus</mas_info>
+  </juego>
+  <juego>
+    <titulo>Carcassonne</titulo>
+    <autores>Hans im Glück</autores>
+    <num_jugadores>2-5</num_jugadores>
+    <duracion>35 minutos</duracion>
+    <tematica>construcción</tematica>
+    <objetivo>obtener más puntos</objetivo>
+    <precio>27 €</precio>
+    <mas_info>https://www.youtube.com/watch?v=b0SDEcRwOlc&feature=youtu.be&ab_channel=DevirTV</mas_info>
+  </juego>
+  <juego>
+    <titulo>Bang!</titulo>
+    <autores>Mark Rein·Hagen</autores>
+    <num_jugadores>4-7</num_jugadores>
+    <duracion>40 minutos</duracion>
+    <tematica>oeste</tematica>
+    <objetivo>ganar la partida</objetivo>
+    <precio>19,50 €</precio>
+    <mas_info>https://www.youtube.com/watch?v=OofGrvD6Zaw&ab_channel=Zacatrus</mas_info></mas_info>
+  </juego>
+</juegos>

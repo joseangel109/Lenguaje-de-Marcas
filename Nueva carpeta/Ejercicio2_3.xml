@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<viviendas>
+  <vivienda>
+    <tipo>Piso</tipo>
+    <venta_alquiler>Venta</venta_alquiler>
+    <direccion>
+      <calle>Calle Mayor</calle>
+      <codigo_postal>28013</codigo_postal>
+      <poblacion>Madrid</poblacion>
+    </direccion>
+    <precio>250.000 €</precio>
+    <superficie>100 m²</superficie>
+  </vivienda>
+  <vivienda>
+    <tipo>Chalet</tipo>
+    <venta_alquiler>Alquiler</venta_alquiler>
+    <direccion>
+      <calle>Calle de la Paz</calle>
+      <codigo_postal>28015</codigo_postal>
+      <poblacion>Madrid</poblacion>
+    </direccion>
+    <precio>1.500 €/mes</precio>
+    <superficie>200 m²</superficie>
+  </vivienda>
+  <vivienda>
+    <tipo>Apartamento</tipo>
+    <venta_alquiler>Venta</venta_alquiler>
+    <direccion>
+      <calle>Calle de Alcalá</calle>
+      <codigo_postal>28014</codigo_postal>
+      <poblacion>Madrid</poblacion>
+    </direccion>
+    <precio>100.000 €</precio>
+    <superficie>50 m²</superficie>
+  </vivienda>
+</viviendas>

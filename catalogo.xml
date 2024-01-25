@@ -1,0 +1,16 @@
+<catalogo>
+    <productos>
+        <producto1>
+            <nombre>Aceitunas electronica</nombre>
+            <descripcion>Del pacifico</descripcion>
+            <precio>3€/Kilo</precio>
+            <valor>Rellenas de anchoas</valor>
+        </producto1>
+        <producto2>
+            <nombre>Ternera electronica</nombre>
+            <descripcion>De ternera vieja</descripcion>
+            <precio>30€/Kilo</precio>
+            <valor>ESPAÑOLA DE ESPAÑA</valor>
+        </producto2>
+    </productos>
+</catalogo>
