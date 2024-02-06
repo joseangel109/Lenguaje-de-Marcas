@@ -1,0 +1,15 @@
+<? xml version="1.0" encoding="utf-8" ?>
+<biblioteca>
+    <libro prestado="si">
+        <titulo>pulsaciones</titulo>
+        <autor>Gonzalo</autor>
+        <ISBN>0987654</ISBN>
+        <genero>romantico</genero>
+    </libro>
+    <libro>
+        <titulo>Quijote</titulo>
+        <autor>Cervantes</autor>
+        <ISBN>1234567</ISBN>
+        <genero>parodia</genero>
+    </libro>
+</biblioteca>
