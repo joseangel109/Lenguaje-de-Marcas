@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sistemaSolar [
+<!ELEMENT sistemaSolar (cuerpo*)>
+<!ELEMENT cuerpo (planeta|satelite|asteroide)>
+<!ELEMENT planeta (#PCDATA)>
+<!ELEMENT satelite (#PCDATA)>
+<!ELEMENT asteroide (#PCDATA)>
+]>
+<sistemaSolar>
+    <cuerpo>
+        <planeta>456535345bdfgbgdfgsdv</planeta>
+    </cuerpo>
+    <cuerpo>
+        <planeta>3453534gsdv</planeta>
+    </cuerpo>
+    <cuerpo>
+        <satelite>sdadar3534532</satelite>
+    </cuerpo>
+    <cuerpo>
+        <asteroide>6646gvnfghn</asteroide>
+    </cuerpo>
+</sistemaSolar>

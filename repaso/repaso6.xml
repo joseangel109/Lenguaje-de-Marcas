@@ -1,0 +1,13 @@
+<?xml versio="1.0" encoding="UTF-8"?>
+<!DOCTYPE paises [
+<!ELEMENT pais (nombre, unionEuropea, otan)>
+<!ELEMENT nombre EMPTY>
+<!ELEMENT unionEuropea EMPTY>
+<!ELEMENT otan EMPTY>
+]>
+
+<pais>
+    <nombre></nombre>
+    <unionEuropea />
+    <otan />
+</pais>

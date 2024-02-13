@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda[
+    <!ELEMENT agenda (contacto*)>
+    <!ELEMENT contacto (nombre, telefonoFijo*, telefonoMovil+)>
+    <!ELEMENT nombre(#PCDATA)>
+    <!ELEMENT telefonoFijo(#PCDATA)>
+    <!ELEMENT telefonoMovil(#PCDATA)>
+    ]>
+    <agenda>
+        <contacto>
+            <nombre>pedro jugan</nombre>
+            <telefonoMovil>9874653221</telefonoMovil>
+        </contacto>
+        <contacto>
+            <nombre>wrserwqewq</nombre>
+            <telefonoFijo>1423754</telefonoFijo>
+            <telefonoMovil>7654321</telefonoMovil>
+    </agenda>
