@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE letras [
-    <!ELEMENT letras (letra)>
+    <!ELEMENT letras (letra+)>
     <!ELEMENT letra (#PCDATA)>
 ]>
 <letras>
