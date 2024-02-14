@@ -1,0 +1,4 @@
+<!ELEMENT cine (pelicula)>
+<!ELEMENT pelicula=(actor | actriz+)*>
+<!ELEMENT actor(#PCDATA)>
+<!ELEMENT actriz(#PCDATA)>
