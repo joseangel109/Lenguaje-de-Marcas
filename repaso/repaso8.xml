@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE persona [
+    <!ELEMENT persona EMPTY>
+    <!ATTLIST persona nombre CDATA #IMPLIED>
+    <!ATTLIST persona dni CDATA #REQUIRED>
+]>
+
+<persona dni="90876543" /> -->
+<!-- 
+<!DOCTYPE pelicula [
+<!ELEMENT pelicula EMPTY>
+<!ATTLIST pelicula titulo CDATA #IMPLIED>
+<!ATTLIST pelicula genero CDATA #IMPLIED>
+]>
+
+<pelicula titulo="La diligencia" genero="oeste" -->
+
+<!-- <!DOCTYPE cuadros [
+<!ELEMENT cuadros (cuadro*)>
+<!ATTLIST cuadro  #EMPTY>
+<!ATTLIST cuadro titulo ID #REQUIRED>
+<!ATTLIST cuadro autor CDATA #REQUIRED>
+]>
+
+<pelicula titulo="Adan" autor="Alberto">
+<pelicula titulo="Adan" autor="Alberto"> -->
+
+
