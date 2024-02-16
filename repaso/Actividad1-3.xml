@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bebidas [
+<!ELEMENT bebidas (alumno)*>
+<!ELEMENT bebida (nombre, expediente, asignatura)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+]>
+
+<bebidas>
+    <bebida>
+        <codigo>L45</codigo>
+        <nombre>leche</nombre>
+        <precio>8</precio>
+    </bebida>
+    <bebida>
+        <precio>6</precio>
+    </bebida>
+</bebidas>

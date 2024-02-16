@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE clase SYSTEM "cine.dtd">
+<cine>
+    <pelicula>
+        <actor> Javier Bardem </actor>
+        <actor> Antonio Banderas </actor>
+        <actor> Jaime Lorente </actor>
+        <actriz> Blanca Suarez </actriz>
+        <actriz> Paz Vega </actriz>
+        <actriz> Inma Cuesta</actriz>
+    </pelicula>
+</cine>
