@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--NMTOKEN acepta espacio NMTOKENS no acepta-->
+<!-- <!DOCTYPE listaCompra [
+    <!ELEMENT listaCompra (item*)>
+    <ELEMENT item EMPTY>
+    <!ATTLIST item nombre CDATA #REQUIRED>
+    <!ATTLIST item cantidad CDATA #REQUIRED>
+]>
+
+<listaCompra>
+    <item nombre="leche" cantidad="12 litros"></item>
+    <item nombre="pan" cantidad="3 barras de cuarto"/>
+</listaCompra> -->
+<!-- <!DOCTYPE futbol [
+    <!ELEMENT futbol (jugador*)>
+    <!ELEMENT jugador EMPTY>
+    <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+    <!ATTLIST jugador codigo ID #REQUIRED>
+]>
+
+    <futbol>
+        <jugador nombre="Pedro" codigo="12"/>
+        <jugador nombre="Pablo" codigo="13"/>
+    </futbol> -->
+    <!-- <!DOCTYPE futbol [
+    <!ELEMENT futbol ((jugador|equipo)*)>
+    <!ELEMENT jugador EMPTY>
+    <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+    <!ATTLIST jugador codigo ID #REQUIRED>
+    <!ELEMENT equipo EMPTY>
+    <!ATTLIST equipo nombre CDATA #REQUIRED>
+    <!ATTLIST equipo jugadores IDREFS #IMPLIED>
+]>
+   <futbol>
+        <jugador nombre="Pedro" codigo="ped"/>
+        <jugador nombre="Pablo" codigo="pab"/>
+        <equipo nombre="BARCA" jugadores="ped"/>
+        <equipo nombe="REAL ROBOS" jugadores="pab"/>
+    </futbol> -->
+
