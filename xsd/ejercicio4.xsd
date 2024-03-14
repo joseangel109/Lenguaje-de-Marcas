@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ejemplo.com/ciudades">
+<!--EJERCICIO4-->
+  <xs:element name="ciudades" type="ciudadesType"/>
+
+  <xs:complexType name="ciudadesType">
+    <xs:sequence minOccurs="0" maxOccurs="1">
+      <xs:element name="ciudad" type="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Murcia"/>
+            <xs:enumeration value="Madrid"/>
+            <xs:enumeration value="Valencia"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

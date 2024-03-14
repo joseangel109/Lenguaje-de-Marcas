@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ejemplo.com/fecha">
+<!--EJERCICIO2-->
+  <xs:element name="fecha_nacimiento" type="fechaNacimientoType"/>
+  <xs:complexType name="fechaNacimientoType">
+    <xs:sequence>
+      <xs:element name="anyo" type="xs:gYear"/>
+      <xs:element name="mes" type="xs:gMonth"/>
+      <xs:element name="dia" type="xs:gDay"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

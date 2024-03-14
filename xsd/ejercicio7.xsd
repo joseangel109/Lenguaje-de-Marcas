@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ejemplo.com/calificacion">
+<!--EJERCICIO7-->
+  <xs:element name="calificacion" type="calificacionType"/>
+
+  <xs:complexType name="calificacionType">
+    <xs:simpleContent>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="suspenso"/>
+        <xs:enumeration value="aprobado"/>
+        <xs:enumeration value="notable"/>
+        <xs:enumeration value="sobresaliente"/>
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>

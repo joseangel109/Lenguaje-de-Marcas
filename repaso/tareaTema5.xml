@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuentos[
+<!ELEMENT cuentos (cuento+)>
+<!ELEMENT cuento (personajes, trama, etiqueta*)>
+<!ATTLIST cuento
+    cod CDATA #REQUIRED
+    título CDATA #REQUIRED
+    género (infantil | fantasía | terror) #IMPLIED
+>
+<!ELEMENT personajes (personaje+)>
+<!ELEMENT personaje (nombre, género, descripción?, etiqueta*)>
+<!ATTLIST personaje
+    id ID #REQUIRED
+    tipo (principal | secundario | antagonista) "principal"
+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT género (#PCDATA)>
+<!ELEMENT descripción (#PCDATA)>
+<!ELEMENT trama (#PCDATA)>
+<!ELEMENT etiqueta EMPTY>
+<!ATTLIST etiqueta
+    nombre CDATA #REQUIRED
+>
+]>
+
+<cuentos>
+    <cuento cod="AI1" título="Me llamo Pedro Juan" género="fantasía">
+        <personajes>
+            <personaje id="p1" tipo="principal">
+                <nombre>Pedro</nombre>
+                <género>M</género>
+                <descripción>El que carrea el cuento</descripción>
+            </personaje>
+            <personaje id="p2" tipo="secundario">
+                <nombre>Juan</nombre>
+                <género>M</género>
+            </personaje>
+        </personajes>
+        <trama>Dos hermanos separados al nacer que se llamaban Pedro y Juan</trama>
+        <etiqueta nombre="épico"/>
+        <etiqueta nombre="viaje"/>
+    </cuento>
+    <cuento cod="AI1" título="Mi padre Achraf Hakimi">
+        <personajes>
+            <personaje id="a1" tipo="antagonista">
+                <nombre>Achraf</nombre>
+                <género>M</género>
+                <descripción>El GOAT que fue la pesadilla de España</descripción>
+            </personaje>
+        </personajes>
+        <trama>Un niño crecido en Marruecos que llego a la cima del futbol</trama>
+    </cuento>
+</cuentos>

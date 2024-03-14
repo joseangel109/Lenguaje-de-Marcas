@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ejemplo.com/patas">
+<!--EJERCICIO5-->
+  <xs:element name="patas" type="patasType"/>
+
+  <xs:complexType name="patasType">
+    <xs:sequence>
+      <xs:element name="numero" type="xs:integer">
+        <xs:annotation>
+          <xs:documentation>Número de patas (entre 2 y 8)</xs:documentation> 
+        </xs:annotation>
+        <xs:simpleContent>
+          <xs:extension base="xs:integer">
+            <xs:attribute name="minimo" type="xs:integer" fixed="2"/>
+            <xs:attribute name="maximo" type="xs:integer" fixed="8"/>
+          </xs:extension>
+        </xs:simpleContent>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
