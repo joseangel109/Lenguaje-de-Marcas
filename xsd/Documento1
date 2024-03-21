@@ -1,0 +1,19 @@
+﻿<xs:element name="personajes">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element name="personaje">
+        <xs:all>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="masInfo" type="xs:string">
+                <xs:element name="editorial" type="xs:string">
+                </xs:element>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:all>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>

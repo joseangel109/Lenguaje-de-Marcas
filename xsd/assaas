@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <xs:element name="alumno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string" />
+        <xs:element name="apellido1" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
